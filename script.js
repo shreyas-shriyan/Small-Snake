@@ -103,7 +103,7 @@ function snake_or_ladder(counter , player){
         }
     }
     if(counter == 36){
-        alert('player '+player.toString()+' won the game')
+        alert('Player '+player.toString()+' won the game')
     }
     
 }
