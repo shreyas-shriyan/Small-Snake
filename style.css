@@ -1,0 +1,134 @@
+*{
+    text-align: center;
+}
+
+#snake_box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    margin: 10px auto;
+    width: 612px;
+    height: 612px;
+    text-align: left;
+}
+
+#snake_box > div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid honeydew;
+    background-color: #64DD17;
+    color:darkgreen;
+    text-align: left;
+}
+
+#winner{
+    font-size: 25px;
+}
+
+/* snake backgrounds*/
+
+#box_35{
+    background-image: url(resources/snake35.png);
+}
+#box_19{
+    background-image: url(resources/snake19.png);
+}
+#box_14{
+    background-image: url(resources/snake14.png);
+}
+#box_29{
+    background-image: url(resources/snake29.png);
+}
+
+/*ladder backgrounds*/
+
+#box_8{
+    background-image: url(resources/ladder8.png);
+}
+#box_2{
+    background-image: url(resources/ladder2.png);
+}
+#box_21{
+    background-image: url(resources/ladder21.png);
+}
+#box_25{
+    background-image: url(resources/ladder25.png);
+}
+
+
+.side_box{
+    width: 32%;
+}
+
+#next_player_text{
+    margin-top: 50px;
+}
+
+#heading{
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color:#64DD17 ;
+}
+
+#container_box{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    margin: 0 5%;
+}
+
+li{
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+    text-align: justify;
+}
+
+#dice{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(228, 238, 181) ;
+    border-radius: 7px;
+    margin: 70px auto;
+}
+
+#dice_button{
+    width: 80px;
+    padding: 20px;
+    background-color: chartreuse;
+    margin: auto;
+    border-radius: 7px;
+}
+
+#dice_number{
+    font-size: 50px;
+    padding: 35px;
+}
+
+#player_coin1{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#player_coin2{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
